@@ -61,9 +61,10 @@ p{
     margin-left: 50%;
 }
 #ham{
+    position:absolute;
     color:white;
     font-size:2vw;
-    margin-left:50%;
+    margin-left:0%;
     transition:0.4s;
 }
 
