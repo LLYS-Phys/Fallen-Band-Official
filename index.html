@@ -8,18 +8,18 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <body>
-
+    <body ontouchmove="smart()">
+    
         <div id="menu" class="nav" onmouseleave=closeMenu()>
             <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
-            <a href="#shows" onclick="closeMenu()">Shows</a>
-            <a href="#news" onclick="closeMenu()">News</a>
-            <a href="#videos" onclick="closeMenu()">Videos</a>
-            <a href="#music" onclick="closeMenu()">Music</a>
-            <a href="#photos" onclick="closeMenu()">Photos</a>
-            <a href="#subscribe" onclick="closeMenu()">Subscribe</a>
-            <a href="#members" onclick="closeMenu()">Members</a>
-            <a href="#connect" onclick="closeMenu()">Connect</a>
+            <a href="#shows" id='one' onclick="closeMenu()">Shows</a>
+            <a href="#news" id='two' onclick="closeMenu()">News</a>
+            <a href="#videos" id='three' onclick="closeMenu()">Videos</a>
+            <a href="#music" id='four' onclick="closeMenu()">Music</a>
+            <a href="#photos" id='five' onclick="closeMenu()">Photos</a>
+            <a href="#subscribe" id='six' onclick="closeMenu()">Subscribe</a>
+            <a href="#members" id='seven' onclick="closeMenu()">Members</a>
+            <a href="#connect" id='eight' onclick="closeMenu()">Connect</a>
         </div>
         <span onclick="openMenu()" onmouseover="openMenu()" id='ham'>☰</span>
 
