@@ -9,7 +9,7 @@
     </head>
 
     <body ontouchmove="smart()">
-    
+    <div id="fill">
         <div id="menu" class="nav" onmouseleave=closeMenu()>
             <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
             <a href="#shows" id='one' onclick="closeMenu()">Shows</a>
@@ -22,7 +22,6 @@
             <a href="#connect" id='eight' onclick="closeMenu()">Connect</a>
         </div>
         <span onclick="openMenu()" onmouseover="openMenu()" id='ham'>☰</span>
-
 
         <div id="shows" class='tab' ontouchstart="closeMenu()">
         shows<br>
@@ -233,6 +232,10 @@
         connect<br>
         connect<br>
         </div>
+    </div>
+        <footer>
+            <p id="copyright">Copyright © 2021 <span style="font-weight: bolder";> Lachezar Yordanov</span> | All Rights Reserved.</p>
+        </footer>
 
         <script src="js/logic.js"></script>
     </body>

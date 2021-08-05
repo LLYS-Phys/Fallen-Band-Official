@@ -64,6 +64,20 @@ p{
     margin-left:0%;
     transition:0.4s;
 }
+#copyright{
+    width:100%;
+    position:fixed;
+    color:white;
+    font-weight: bold;
+    font-size:1.2vw;
+    bottom:0;
+    left:36%;
+}
+#fill{
+    position:fixed;
+    height:100%;
+    width:100%;
+}
 
 @media screen and (max-width:1300px) and (orientation:portrait){
     .nav .closebtn{
@@ -78,5 +92,10 @@ p{
     }
     .nav a:hover{
         font-size:5vw;
+    }
+    #copyright{
+        margin-left:2.5%;
+        font-size:1.97vw;
+        left:22%;
     }
 }

@@ -17,11 +17,11 @@ function smart(){
   }
 }
 
-var opt = document.getElementById('menu').children;
-if(opt[1].selected = true){
-  document.getElementById('shows').style.display = 'block';
-}
-else{document.getElementById('shows').style.display = 'none'}
+//var opt = document.getElementById('menu').children;
+//if(opt[1].selected = true){
+//  document.getElementById('shows').style.display = 'block';
+//}
+//else{document.getElementById('shows').style.display = 'none'}
 
 //if(document.getElementById('one').clicked = true){
 //  document.getElementById('shows').style.display = 'block';
