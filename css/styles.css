@@ -80,9 +80,6 @@ p{
 }
 
 @media screen and (max-width:1300px) and (orientation:portrait){
-    html, body {
-        overflow-y: hidden;
-    }
     .nav .closebtn{
         top:-0.7%;
         font-size:5vw;
