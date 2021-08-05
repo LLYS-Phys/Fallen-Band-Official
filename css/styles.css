@@ -13,14 +13,16 @@ p{
 .tab{
     display:none;
     background-color: rgba(207, 207, 207, 0.74);
-    height:auto;
-    width:75vw;
+    height:80%;
+    width:72vw;
     padding:6%;
     margin:10%;
     color:black;
     font-weight:bold;
     font-size:1.8vw;
     margin-top:-2%;
+    overflow-y:scroll;
+    position:relative;
 }
 .nav{
     height:100%;
@@ -78,10 +80,23 @@ p{
     height:100%;
     width:100%;
 }
+.tab .closebtn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 3.5vw;
+    margin-left: 50%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 @media screen and (max-width:1300px) and (orientation:portrait){
     .nav .closebtn{
         top:-0.7%;
+        font-size:5vw;
+    }
+    .tab .closebtn{
         font-size:5vw;
     }
     .nav a{
