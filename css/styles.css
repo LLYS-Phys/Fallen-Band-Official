@@ -22,9 +22,6 @@ p{
     font-size:1.8vw;
     margin-top:7%;
 }
-#shows{
-    display:none;
-}
 .nav{
     height:100%;
     width:0;
@@ -40,30 +37,30 @@ p{
 .nav a{
     padding:7%, 7%, 7%, 10%;
     text-decoration: none;
-    font-size:2vw;
+    font-size:2.5vw;
     color:black;
     font-weight:bold;
     display:block;
     transition:0.3s;
-    padding-top:10%;
+    padding-top:7%;
     padding-left:10%;
 }
 .nav a:hover {
     color: #f1f1f1;
     font-weight:bolder;
-    font-size:3vw;
+    font-size:3.5vw;
 }
 .nav .closebtn {
     position: absolute;
     top: -1.7%;
     right: 10%;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-left: 50%;
 }
 #ham{
     position:absolute;
     color:white;
-    font-size:2vw;
+    font-size:2.5vw;
     margin-left:0%;
     transition:0.4s;
 }
@@ -71,5 +68,15 @@ p{
 @media screen and (max-width:1300px) and (orientation:portrait){
     .nav .closebtn{
         top:-0.7%;
+        font-size:5vw;
+    }
+    .nav a{
+        font-size:4vw;
+    }
+    #ham{
+        font-size:4vw
+    }
+    .nav a:hover{
+        font-size:5vw;
     }
 }

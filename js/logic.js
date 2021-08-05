@@ -1,5 +1,5 @@
 function openMenu() {
-  document.getElementById("menu").style.width = "15vw";
+  document.getElementById("menu").style.width = "25vw";
   document.getElementById('ham').style.color='transparent';
 }
 
