@@ -8,14 +8,14 @@ function closeMenu() {
   document.getElementById('ham').style.color="white";
 }
 
-function smart(){
-  if(document.getElementById("menu").style.width < "25vw"){
-    openMenu();
-  }
-  else if(document.getElementById("menu").style.width >= "25vw"){
-    closeMenu();
-  }
-}
+//function smart(){
+//  if(document.getElementById("menu").style.width < "25vw"){
+//    openMenu();
+//  }
+//  else if(document.getElementById("menu").style.width >= "25vw"){
+//    closeMenu();
+//  }
+//}
 
 //var opt = document.getElementById('menu').children;
 //if(opt[1].selected = true){
