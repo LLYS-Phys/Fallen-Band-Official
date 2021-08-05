@@ -1,0 +1,74 @@
+body{
+    background-image: url('https://i.ibb.co/CB7bVYS/Untitled-3.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color:black;
+    overflow-y: auto;
+    position:absolute;
+    color:white;
+}
+p{
+    color:white;
+}
+.tab{
+    display:none;
+    background-color: rgba(207, 207, 207, 0.74);
+    height:auto;
+    width:75vw;
+    padding:6%;
+    margin:10%;
+    color:black;
+    font-weight:bold;
+    font-size:1.8vw;
+    margin-top:7%;
+}
+#shows{
+    display:none;
+}
+.nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: rgba(207, 207, 207, 0.74);
+    overflow-x:hidden;
+    padding-top:7%;
+    transition:0.5s;
+}
+.nav a{
+    padding:7%, 7%, 7%, 10%;
+    text-decoration: none;
+    font-size:2vw;
+    color:black;
+    font-weight:bold;
+    display:block;
+    transition:0.3s;
+    padding-top:10%;
+    padding-left:10%;
+}
+.nav a:hover {
+    color: #f1f1f1;
+    font-weight:bolder;
+    font-size:3vw;
+}
+.nav .closebtn {
+    position: absolute;
+    top: -1.7%;
+    right: 10%;
+    font-size: 3vw;
+    margin-left: 50%;
+}
+#ham{
+    color:white;
+    font-size:2vw;
+    margin-left:50%;
+    transition:0.4s;
+}
+
+@media screen and (max-width:1300px) and (orientation:portrait){
+    .nav .closebtn{
+        top:-0.7%;
+    }
+}
