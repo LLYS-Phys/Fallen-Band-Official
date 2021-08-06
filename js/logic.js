@@ -41,10 +41,13 @@ news.addEventListener('click', function(event){
 })
 
 var videos = document.getElementById('three');
+var firstVideo = document.getElementsByClassName('first')
 videos.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'block';
+  console.log(firstVideo);
+  firstVideo[0].src='https://www.youtube.com/embed/MP_RpBE1iD0';
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';

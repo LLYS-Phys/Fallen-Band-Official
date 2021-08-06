@@ -10,13 +10,16 @@ body{
 p{
     color:white;
 }
+#videos{
+    display:block;
+}
 .tab{
     display:none;
     background-color: rgba(207, 207, 207, 0.74);
     height:80%;
     width:72vw;
     padding:6%;
-    margin:10%;
+    margin:7%;
     color:black;
     font-weight:bold;
     font-size:1.8vw;
@@ -89,6 +92,30 @@ p{
     color:black;
     text-decoration: none;
     font-weight: bold;
+}
+.video{
+    margin-left:-7%;
+}
+.titlevideo{
+    color:white;
+    text-shadow:0.1vw 0.1vw black;
+    text-align:center;
+}
+.videoinfo{
+    background-color: rgba(255, 255, 255, 0.315);
+    height:23.7vw;
+    width:36.5vw;
+    float:right;
+    margin-right:-6%;
+    padding-top: 0.5%;
+    padding-left:0.8%;
+}
+.title{
+    color:white;
+    text-shadow:0.15vw 0.15vw black;
+    margin-top:-5%;
+    text-align:center;
+    margin-bottom:5%;
 }
 
 @media screen and (max-width:1300px) and (orientation:portrait){
