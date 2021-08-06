@@ -153,4 +153,7 @@ p{
     .tab{
         height:inherit;
     }
+    .video{
+        padding-bottom:7%;
+    }
 }
