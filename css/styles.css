@@ -12,7 +12,7 @@ p{
 }
 .tab{
     display:none;
-    background-color: rgba(207, 207, 207, 0.74);
+    background-color: rgba(160, 160, 160, 0.5);
     height:80%;
     width:72vw;
     padding:6%;
@@ -92,6 +92,7 @@ p{
 }
 .video{
     margin-left:-7%;
+    padding-bottom: 10%;
 }
 .titlevideo{
     color:white;
@@ -108,33 +109,44 @@ p{
     padding-left:0.8%;
 }
 .title{
+    font-size:5vw;
     color:white;
     text-shadow:0.15vw 0.15vw black;
     margin-top:-5%;
     text-align:center;
-    margin-bottom:5%;
+    margin-bottom:10%;
 }
 
 @media screen and (max-width:1300px) and (orientation:portrait){
     .nav .closebtn{
         top:-0.7%;
-        font-size:5vw;
+        font-size:6vw;
     }
     .tab .closebtn{
-        font-size:5vw;
+        font-size:6vw;
     }
     .nav a{
-        font-size:4vw;
+        font-size:5vw;
     }
     #ham{
-        font-size:5vw
+        font-size:7vw
     }
     .nav a:hover{
-        font-size:5vw;
+        font-size:6vw;
     }
     #copyright{
         margin-left:2.5%;
         font-size:1.97vw;
         left:22%;
+    }
+    .videoinfo{
+        height:32.1vw;
+        font-size:2.3vw;
+    }
+    .titlevideo{
+        font-size:5vw;
+    }
+    .title{
+        font-size:7vw;
     }
 }

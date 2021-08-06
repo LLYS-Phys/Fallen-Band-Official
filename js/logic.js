@@ -1,5 +1,5 @@
 function openMenu() {
-  document.getElementById("menu").style.width = "25vw";
+  document.getElementById("menu").style.width = "30vw";
   document.getElementById('ham').style.color='transparent';
 }
 
@@ -42,12 +42,18 @@ news.addEventListener('click', function(event){
 
 var videos = document.getElementById('three');
 var firstVideo = document.getElementsByClassName('first')
+var secondVideo = document.getElementsByClassName('second')
+var thirdVideo = document.getElementsByClassName('third')
+var fourthVideo = document.getElementsByClassName('fourth')
 videos.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'block';
   console.log(firstVideo);
   firstVideo[0].src='https://www.youtube.com/embed/MP_RpBE1iD0';
+  secondVideo[0].src='https://www.youtube.com/embed/svubKscTmz4';
+  thirdVideo[0].src='https://www.youtube.com/embed/uq58pA5BkWs';
+  fourthVideo[0].src='https://www.youtube.com/embed/v7_DWESVjTI';
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
