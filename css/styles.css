@@ -150,4 +150,7 @@ p{
     .title{
         font-size:7vw;
     }
+    .tab{
+        height:inherit;
+    }
 }
