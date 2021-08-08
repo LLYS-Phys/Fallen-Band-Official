@@ -31,7 +31,7 @@ p{
     z-index:1;
     top:0;
     left:0;
-    background-color: rgba(207, 207, 207, 0.74);
+    background-color: rgba(160, 160, 160, 0.5);
     overflow-x:hidden;
     padding-top:7%;
     transition:0.5s;
@@ -123,7 +123,8 @@ p{
 #icons img{
     height:25%;
     width:25%;
-}
+    padding-bottom:8%;
+}   
 a{
     text-decoration: none;
 }
@@ -184,27 +185,27 @@ a:visited{
     #icons{
         position:block;
         margin-left:5%;
-        margin-top:60%;
+        margin-top:90%;
     }
     #icons img{
-        height:80%;
-        width:80%;
-        padding-top:15%;
+        height:75%;
+        width:75%;
+        padding-top:20%;
     }
     #icons .soc1{
         margin-left:-80vw;
     }
     #icons .soc2{
-        margin-left:-67vw;
-        margin-top:13%;
+        margin-left:-35vw;
+        margin-top:-110%;
     }
     #icons .soc3{
-        margin-left:-190%;
-        margin-top:-15%;
+        margin-left:-250%;
+        margin-top:5%;
     }
     #icons .soc4{
-        margin-left:-80%;
-        margin-top:-35%;
+        margin-left:-70%;
+        margin-top:-135%;
     }
     #follow{
         display:block;
@@ -212,8 +213,8 @@ a:visited{
         font-size:10vw;
         font-style: italic;
         font-weight: bold;
-        margin-top:88vw;
-        margin-left:33vw;
-        transform: rotate(43deg);
+        margin-top:79vw;
+        margin-left:27vw;
+        transform: rotate(-5deg);
     }
 }
