@@ -7,6 +7,7 @@ function closeMenu() {
   document.getElementById("menu").style.width = "0";
   document.getElementById('ham').style.color="white";
 }
+
 var showsinfo = document.getElementById('shows');
 var newsinfo = document.getElementById('news');
 var videosinfo = document.getElementById('videos');
@@ -54,6 +55,8 @@ videos.addEventListener('click', function(event){
   secondVideo[0].src='https://www.youtube.com/embed/svubKscTmz4';
   thirdVideo[0].src='https://www.youtube.com/embed/uq58pA5BkWs';
   fourthVideo[0].src='https://www.youtube.com/embed/v7_DWESVjTI';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
@@ -124,5 +127,7 @@ connect.addEventListener('click', function(event){
 function closeTab(){
   for(i=0; i<8; i++){
     document.getElementsByClassName('tab')[i].style.display = 'none';
+    document.getElementById('icons').style.display = 'block';
+    document.getElementById('follow').style.display = 'inherit'
   }
 }

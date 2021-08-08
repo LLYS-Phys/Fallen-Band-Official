@@ -116,6 +116,31 @@ p{
     text-align:center;
     margin-bottom:10%;
 }
+#icons{
+    float:right;
+    margin-right:-11%;
+}
+#icons img{
+    height:25%;
+    width:25%;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color:inherit;
+}
+#follow{
+    display:none;
+    margin-left:-120%;
+}
+
+@media screen and (max-width:1300px) and (orientation:landscape){
+    #icons{
+        margin-right:-15%;
+    }    
+}
 
 @media screen and (max-width:1300px) and (orientation:portrait){
     .nav .closebtn{
@@ -155,5 +180,40 @@ p{
     }
     .video{
         padding-bottom:7%;
+    }
+    #icons{
+        position:block;
+        margin-left:5%;
+        margin-top:60%;
+    }
+    #icons img{
+        height:80%;
+        width:80%;
+        padding-top:15%;
+    }
+    #icons .soc1{
+        margin-left:-80vw;
+    }
+    #icons .soc2{
+        margin-left:-67vw;
+        margin-top:13%;
+    }
+    #icons .soc3{
+        margin-left:-190%;
+        margin-top:-15%;
+    }
+    #icons .soc4{
+        margin-left:-80%;
+        margin-top:-35%;
+    }
+    #follow{
+        display:block;
+        color:white;
+        font-size:10vw;
+        font-style: italic;
+        font-weight: bold;
+        margin-top:88vw;
+        margin-left:33vw;
+        transform: rotate(43deg);
     }
 }
