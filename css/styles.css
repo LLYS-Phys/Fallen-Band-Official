@@ -125,6 +125,11 @@ p{
     width:25%;
     padding-bottom:8%;
 }   
+#icons img:hover{
+    height:30%;
+    width:30%;
+    transition:0.2s;
+}
 a{
     text-decoration: none;
 }
@@ -191,6 +196,11 @@ a:visited{
         height:75%;
         width:75%;
         padding-top:20%;
+    }
+    #icons img:hover{
+        height:80%;
+        width:80%;
+        transition:0.2s;
     }
     #icons .soc1{
         margin-left:-80vw;
