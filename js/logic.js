@@ -27,6 +27,8 @@ shows.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var news = document.getElementById('two');
@@ -39,6 +41,8 @@ news.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var videos = document.getElementById('three');
@@ -74,6 +78,8 @@ music.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var photos = document.getElementById('five');
@@ -86,6 +92,8 @@ photos.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var subscribe = document.getElementById('six');
@@ -98,6 +106,8 @@ subscribe.addEventListener('click', function(event){
   subscribeinfo.style.display = 'block';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var members = document.getElementById('seven');
@@ -110,6 +120,8 @@ members.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'block';
   connectinfo.style.display = 'none';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 var connect = document.getElementById('eight');
@@ -122,6 +134,8 @@ connect.addEventListener('click', function(event){
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'block';
+  document.getElementById('icons').style.display = 'none';
+  document.getElementById('follow').style.display = 'none';
 })
 
 function closeTab(){
