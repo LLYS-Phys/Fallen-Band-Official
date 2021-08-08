@@ -133,10 +133,6 @@ p{
 a{
     text-decoration: none;
 }
-a:visited{
-    text-decoration: none;
-    color:inherit;
-}
 #follow{
     display:none;
     margin-left:-120%;
