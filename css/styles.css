@@ -147,6 +147,13 @@ a{
     display:none;
     margin-left:-120%;
 }
+.clickandhold{
+    display:none;
+}
+.titlevideo, .videoinfo, #first, #second, #third, #fourth{
+    position:relative;
+    z-index: auto;
+}
 
 @media screen and (max-width:1300px) and (orientation:landscape){
     #icons{
@@ -183,11 +190,14 @@ a{
         padding-right:1%;
     }
     .videoinfo:active{
+        margin-top:-55%;
         height:auto;
         width:103.5%;
-        font-size: 4vw;
+        font-size: 3.5vw;
         padding-bottom:4%;
         padding-top:2%;
+        z-index:100;
+        background-color: rgba(255, 255, 255, 0.85);
     }
     .titlevideo{
         font-size:4.75vw;
@@ -232,5 +242,17 @@ a{
         margin-top:68vw;
         margin-left:23vw;
         transform: rotate(-1.5deg);
+    }
+    .clickandhold{
+        height:10vw;
+        width:10vw;
+        display:block;
+        position:relative;
+        float:right;
+        margin-top:-12%;
+        margin-right:-5%;
+    }
+    #lastvideo{
+        padding-bottom:25vw;
     }
 }
