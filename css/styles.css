@@ -46,11 +46,13 @@ p{
     transition:0.3s;
     padding-top:5%;
     padding-left:10%;
+    text-shadow:0.115vw 0.115vw 1vw white;
 }
 .nav a:hover {
     color: #f1f1f1;
     font-weight:bolder;
     font-size:3.5vw;
+    text-shadow:0.15vw 0.15vw black;
 }
 .nav .closebtn {
     position: absolute;
