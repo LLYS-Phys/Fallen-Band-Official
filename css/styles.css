@@ -212,8 +212,9 @@ a{
         padding-bottom:7%;
     }
     #icons{
-        position:block;
-        margin-top:-1%;
+        position:relative;
+        display:block;
+        margin-top:85%;
         margin-right:9%;
     }
     #icons img{
@@ -234,12 +235,13 @@ a{
         padding-left:20%;
     }
     #follow{
+        position:absolute;
         display:block;
         color:white;
         font-size:10vw;
         font-style: italic;
         font-weight: bold;
-        margin-top:68vw;
+        top:38%;
         margin-left:23vw;
         transform: rotate(-1.5deg);
     }
