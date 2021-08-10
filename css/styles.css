@@ -179,6 +179,8 @@ a{
         height:auto;
         width:103.5%;
         font-size: 4vw;
+        padding-bottom:4%;
+        padding-top:2%;
     }
     .titlevideo{
         font-size:4.75vw;
