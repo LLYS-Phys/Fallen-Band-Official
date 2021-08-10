@@ -263,7 +263,7 @@ a{
     #lastvideo{
         padding-bottom:25vw;
     }
-    .titlevideo, .videoinfo, #first, #second, #third, #fourth{
+    .titlevideo, #first, #second, #third, #fourth{
         position:relative;
         z-index: auto;
     }
