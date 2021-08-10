@@ -201,9 +201,12 @@ a{
         padding-top:2%;
         z-index:100;
         background-color: rgba(255, 255, 255, 0.85);
+        margin-bottom:5%;
     }
     .titlevideo{
         font-size:4.75vw;
+        padding-left:5%;
+        width:100%;
     }
     .title{
         font-size:7vw;
@@ -212,7 +215,7 @@ a{
         height:inherit;
     }
     .video{
-        padding-bottom:7%;
+        padding-bottom:10%;
     }
     #icons{
         position:relative;
@@ -254,10 +257,14 @@ a{
         display:block;
         position:relative;
         float:right;
-        margin-top:-12%;
+        margin-top:-15%;
         margin-right:-5%;
     }
     #lastvideo{
         padding-bottom:25vw;
+    }
+    .titlevideo, .videoinfo, #first, #second, #third, #fourth{
+        position:relative;
+        z-index: auto;
     }
 }
