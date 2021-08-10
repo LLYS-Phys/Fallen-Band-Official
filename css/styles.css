@@ -152,7 +152,7 @@ a{
 }
 .titlevideo, .videoinfo, #first, #second, #third, #fourth{
     position:relative;
-    z-index: auto;
+    z-index: 0;
 }
 
 @media screen and (max-width:1300px) and (orientation:landscape){
@@ -265,6 +265,6 @@ a{
     }
     .titlevideo, .videoinfo, #first, #second, #third, #fourth{
         position:relative;
-        z-index: auto;
+        z-index: 0;
     }
 }
