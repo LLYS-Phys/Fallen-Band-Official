@@ -169,6 +169,9 @@ a{
     .tab .closebtn{
         font-size:10vw;
     }
+    .tab .closebtn:hover{
+        font-size:11vw;
+    }
     .nav a{
         font-size:6.5vw;
         padding-top:10%;
