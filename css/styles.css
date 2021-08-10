@@ -176,7 +176,7 @@ a{
         padding-right:1%;
     }
     .videoinfo:active{
-        height:50vw;
+        height:auto;
         width:103.5%;
         font-size: 4vw;
     }
