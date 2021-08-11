@@ -150,7 +150,7 @@ a{
 .clickandhold{
     display:none;
 }
-.titlevideo, .videoinfo, #first, #second, #third, #fourth{
+.titlevideo, .videoinfo, .video iframe{
     position:relative;
     z-index: 0;
 }
@@ -263,7 +263,7 @@ a{
     #lastvideo{
         padding-bottom:25vw;
     }
-    .titlevideo, .videoinfo, #first, #second, #third, #fourth{
+    .titlevideo, .videoinfo, .video iframe{
         position:relative;
         z-index: 0;
     }

@@ -55,13 +55,13 @@ videos.addEventListener('click', function(event){
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'block';
   console.log(firstVideo);
-  firstVideo[0].src='https://www.youtube.com/embed/MP_RpBE1iD0';
+  firstVideo[0].src='https://www.youtube.com/embed/MP_RpBE1iD0?wmode=transparent';
   firstVideo[0].style.zIndex='0';
-  secondVideo[0].src='https://www.youtube.com/embed/svubKscTmz4';
+  secondVideo[0].src='https://www.youtube.com/embed/svubKscTmz4?wmode=transparent';
   secondVideo[0].style.zIndex='0';
-  thirdVideo[0].src='https://www.youtube.com/embed/uq58pA5BkWs';
+  thirdVideo[0].src='https://www.youtube.com/embed/uq58pA5BkWs?wmode=transparent';
   thirdVideo[0].style.zIndex='0';
-  fourthVideo[0].src='https://www.youtube.com/embed/v7_DWESVjTI';
+  fourthVideo[0].src='https://www.youtube.com/embed/v7_DWESVjTI?wmode=transparent';
   fourthVideo[0].style.zIndex='0';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
