@@ -192,6 +192,7 @@ a{
         height:32.1vw;
         font-size:2.25vw;
         padding-right:1%;
+        overflow-y: hidden;
     }
     .videoinfo:active{
         margin-top:-55%;
