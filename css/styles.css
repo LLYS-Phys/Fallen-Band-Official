@@ -116,6 +116,7 @@ p{
     margin-right:-6%;
     padding-top: 0.5%;
     padding-left:0.8%;
+    overflow-y:auto;
 }
 .title{
     font-size:5vw;
