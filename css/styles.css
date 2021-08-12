@@ -159,18 +159,18 @@ a{
 #photos table{
     table-layout: fixed;
     width:100%;
-    margin-left:-2%;
+    margin-left:0;
 }
 #photos td{
     height:30vw;
 }
 #left{
     margin-left:-5%;
-    margin-top:-138%;
+    margin-top:-34%;
 }
 #right{
     margin-left:5%;
-    margin-top:-138%;
+    margin-top:-34%;
 }
 #lefttop{
     margin-left:-5%;
@@ -182,23 +182,25 @@ a{
     margin-top:-34%;
     padding-top:35%;
 }
-.photo {
-    overflow: hidden;
+#left, #right, #lefttop, #righttop {
     height:7vw;
-    width:38vw;
-    padding-top: 90%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9*/
     position: relative;
+    background-color: black;
   }
   
-  .photo iframe {
+.photo {
      border: 0;
-     height: 24vw;
+     height: 100vw;
      left: 0;
      position: absolute;
      top: 0;
-     width: 42vw;
-  }
-
+     width: 100%;
+}
+#p1{
+    margin-top:0%;
+}
 
 
 @media screen and (max-width:1300px) and (orientation:landscape){

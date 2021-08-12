@@ -95,6 +95,7 @@ photos.addEventListener('click', function(event){
   videosinfo.style.display = 'none';
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'block';
+  document.cookie = "SameSite=None; Secure";
   photo[0].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1233765783728692&show_text=false&width=500';
   photo[1].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1164105070694764&show_text=false&width=500';
   photo[2].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1155148154923789&show_text=false&width=500';
@@ -118,7 +119,7 @@ photos.addEventListener('click', function(event){
   photo[20].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fstudyhubbulgaria%2Fphotos%2Fa.2360762794205932%2F2360766097538935%2F%3Ftype%3D3%26av%3D2141246312824249%26eav%3DAfaEPK0paFFabTQFIo9_h0ObXEgzqnzVwSKWsLt3m4G2PF2kgUPzxGBxQN0CuAdKLDW2jc6-ycZzwpRFixeIrBgr&show_text=false&width=500';
   photo[21].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fstudyhubbulgaria%2Fphotos%2Fa.2360762794205932%2F2360766200872258%2F%3Ftype%3D3%26av%3D2141246312824249%26eav%3DAfazyCwLQ82BVs6FZdIFhlDesr-CJsk-Iv0k1bd1wz3TQhPcRSKwGx2TFqa7fj7sh9hNqD5HrGea594U9W3iy7zS&show_text=false&width=500';
   photo[22].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F747896135648995&show_text=false';
-  photo[23].src = 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F654827781622498&show_text=false';
+  photo[23].src = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F654827781622498&show_text=false&width=500";
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
