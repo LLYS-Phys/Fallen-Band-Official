@@ -156,6 +156,50 @@ a{
     position:relative;
     z-index: 0;
 }
+#photos table{
+    table-layout: fixed;
+    width:100%;
+    margin-left:-2%;
+}
+#photos td{
+    height:30vw;
+}
+#left{
+    margin-left:-5%;
+    margin-top:-138%;
+}
+#right{
+    margin-left:5%;
+    margin-top:-138%;
+}
+#lefttop{
+    margin-left:-5%;
+    margin-top:-34%;
+    padding-top:35%;
+}
+#righttop{
+    margin-left:5%;
+    margin-top:-34%;
+    padding-top:35%;
+}
+.photo {
+    overflow: hidden;
+    height:7vw;
+    width:38vw;
+    padding-top: 90%;
+    position: relative;
+  }
+  
+  .photo iframe {
+     border: 0;
+     height: 24vw;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 42vw;
+  }
+
+
 
 @media screen and (max-width:1300px) and (orientation:landscape){
     #icons{
