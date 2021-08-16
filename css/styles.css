@@ -199,6 +199,57 @@ a{
      top: 0;
      width: 100%;
 }
+#noshow{
+    font-style: italic;
+    color:black;
+    font-size:2vw;
+    text-align:center;
+    padding-top:3%;
+    padding-bottom:5%;
+}
+.event{
+    float:right;
+}
+.event:hover img{
+    opacity:0.75;
+    transition: 0.3s;
+}
+.event img{
+    border-radius: 3%;;
+}
+.date{
+    background-color: rgba(255, 0, 0, 0.795);
+    border-radius: 3%;
+    width:20vw;
+    height:20vw;
+    float:left;
+    margin-top:5%;
+    text-align:center;
+}
+.lineone{
+    font-size:11vw;
+}
+.linetwo, .linethree{
+    font-size:3vw;
+}
+#firstshow{
+    margin-bottom:270%;
+}
+#secondshow{
+    margin-bottom:225%;
+}
+#thirdshow{
+    margin-bottom:180%;
+}
+#fourthshow{
+    margin-bottom:135%;
+}
+#fifthshow{
+    margin-bottom:90%;
+}
+#sixthshow{
+    margin-bottom:45%;
+}
 
 @media screen and (max-width:1300px) and (orientation:landscape){
     #icons{
@@ -314,5 +365,24 @@ a{
     }
     .music{
         height:20vw;
+    }
+    .event img{
+        width:50vw;
+    }
+    .event a{
+        width:50vw;
+    }
+    .date{
+        height:18.5vw;
+        width:18.5vw;
+    }
+    .lineone{
+        font-size:9vw;
+    }
+    .linetwo, .linethree{
+        font-size:3.5vw;
+    }
+    #firstshow{
+        margin-bottom:285%;
     }
 }

@@ -18,6 +18,8 @@ var membersinfo = document.getElementById('members');
 var connectinfo = document.getElementById('connect');
 
 var shows = document.getElementById('one');
+var show = document.getElementsByClassName('event');
+console.log(show);
 shows.addEventListener('click', function(event){
   showsinfo.style.display = 'block';
   newsinfo.style.display = 'none';
