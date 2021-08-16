@@ -54,7 +54,6 @@ videos.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'block';
-  console.log(firstVideo);
   firstVideo[0].src='https://www.youtube.com/embed/MP_RpBE1iD0?wmode=transparent';
   firstVideo[0].style.zIndex='0';
   secondVideo[0].src='https://www.youtube.com/embed/svubKscTmz4?wmode=transparent';
@@ -73,11 +72,16 @@ videos.addEventListener('click', function(event){
 })
 
 var music = document.getElementById('four');
+var track = document.getElementsByClassName('music')
 music.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
   musicinfo.style.display = 'block';
+  track[0].src = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1024474744%3Fsecret_token%3Ds-SUAk8mukcsz&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
+  track[1].src = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1004675470&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
+  track[2].src = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1003183111&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
+  track[3].src = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1003178857&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
@@ -88,7 +92,6 @@ music.addEventListener('click', function(event){
 
 var photos = document.getElementById('five');
 var photo = document.getElementsByClassName('photo');
-console.log(photo);
 photos.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
