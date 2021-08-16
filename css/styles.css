@@ -250,6 +250,14 @@ a{
 #sixthshow{
     margin-bottom:45%;
 }
+.news{
+    background-color: white;
+    margin-top:3%;
+    align-self: center;
+}
+.news iframe{
+    width:100%;
+}
 
 @media screen and (max-width:1300px) and (orientation:landscape){
     #icons{

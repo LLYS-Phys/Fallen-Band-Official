@@ -19,9 +19,14 @@ var connectinfo = document.getElementById('connect');
 
 var shows = document.getElementById('one');
 var show = document.getElementsByClassName('event');
-console.log(show);
 shows.addEventListener('click', function(event){
   showsinfo.style.display = 'block';
+  show[0].children[0].href="https://www.facebook.com/events/527487998425735/";
+  show[1].children[0].href='https://www.facebook.com/events/784626262325279/';
+  show[2].children[0].href='https://www.facebook.com/events/502568697193942/';
+  show[3].children[0].href='https://www.facebook.com/events/357680541523927';
+  show[4].children[0].href='https://www.facebook.com/events/414113389418816/';
+  show[5].children[0].href='https://www.facebook.com/events/1795926537158581/';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
   musicinfo.style.display = 'none';
@@ -34,9 +39,25 @@ shows.addEventListener('click', function(event){
 })
 
 var news = document.getElementById('two');
+var news1 = document.getElementsByClassName('news');
 news.addEventListener('click', function(event){
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'block';
+  news1[0].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1233765783728692&show_text=true&width=500';
+  news1[1].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1164105070694764&show_text=true&width=500';
+  news1[2].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1155148154923789&show_text=true&width=500';
+  news1[3].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1150715685367036&show_text=true&width=500';
+  news1[4].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1146370955801509&show_text=true&width=500';
+  news1[5].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1142109149561023&show_text=true&width=500';
+  news1[6].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1137791049992833&show_text=true&width=500';
+  news1[7].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1134065613698710&show_text=true&width=500';
+  news1[8].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1133427693762502&show_text=true&width=500';
+  news1[9].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1125435667895038&show_text=true&width=500';
+  news1[10].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1117787275326544&show_text=true&width=500';
+  news1[11].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1114206879017917&show_text=true&width=500';
+  news1[12].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1109475376157734&show_text=true&width=500';
+  news1[13].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F747896135648995&show_text=true&width=500';
+  news1[14].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F654827781622498&show_text=true&width=500';
   videosinfo.style.display = 'none';
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
