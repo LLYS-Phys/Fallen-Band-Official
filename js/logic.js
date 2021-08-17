@@ -161,6 +161,11 @@ subscribe.addEventListener('click', function(event){
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'block';
+  function submit(){
+    let fName = document.getElementById('fname');
+    let eMail = document.getElementById('mail');
+    console.log(fName, eMail);
+  };
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
