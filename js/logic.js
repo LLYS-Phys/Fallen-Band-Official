@@ -161,16 +161,21 @@ subscribe.addEventListener('click', function(event){
   musicinfo.style.display = 'none';
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'block';
-  function submit(){
-    let fName = document.getElementById('fname');
-    let eMail = document.getElementById('mail');
-    console.log(fName, eMail);
-  };
   membersinfo.style.display = 'none';
   connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
+var submit = document.getElementById('send');
+submit.addEventListener('click', function(){
+  let fName = document.getElementById('fname').value;
+  let eMail = document.getElementById('mail').value;
+  let data = fName + " - " + eMail;
+  console.log(data);
+  fans.push(data);
+  alert("Thank you for subscribing!");
+});
+let fans = [];
 
 var members = document.getElementById('seven');
 members.addEventListener('click', function(event){
