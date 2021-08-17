@@ -348,10 +348,21 @@
             </table>
         </div>
 
-<div id='subscribe' class='tab' ontouchstart="closeMenu()">
-<a href="javascript:void(0)" class="closebtn" onclick="closeTab()">&times;</a>
-subscribe
-</div>
+        <div id='subscribe' class='tab' ontouchstart="closeMenu()">
+        <h1 class='title'>Subscribe</h1>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeTab()">&times;</a>
+        <div id='subscr'>
+            <h2>SIGN UP TO GET THE LATEST FALLEN NEWS, GIGS, SONG RELEASES AND MORE</h2>
+        </div>
+        <form action="https://formsubmit.co/fallen.band.bulgaria@gmail.com" method="POST"> 
+            <input type='text' id='fname' name='fname' placeholder="Name">
+            <input type='email' id='mail' name='mail' placeholder="E-mail Address">
+            <input type="hidden" name="_next" value="">
+            <input type="hidden" name="_subject" value="New subscription!">
+            <input type="hidden" name="_autoresponse" value="Thank you for subscribing to Fallen! You will receive all the news from the website. You can unsubscribe at any moment by sending us an email.">
+            <button type='submit' id='send'>Send</button>
+        </form>  
+        </div>
 
 <div id="members" class='tab' ontouchstart="closeMenu()">
 <a href="javascript:void(0)" class="closebtn" onclick="closeTab()">&times;</a>
