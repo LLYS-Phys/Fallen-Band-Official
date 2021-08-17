@@ -439,4 +439,27 @@ input{
     #firstshow{
         margin-bottom:285%;
     }
+    #subscr{
+        font-size:3.8vw;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    #fname, #mail{
+        height:8vw;
+        width:65vw;
+        margin-left:5%;
+        margin-right:5%;
+        font-size:3.5vw;
+
+    }
+    ::placeholder{
+        font-size:3.5vw;
+    }
+    #send{
+        height:8vw;
+        width:21.5vw;
+        margin-left:39%;
+        margin-right:39%;
+        font-size:3.5vw;
+    }
 }
