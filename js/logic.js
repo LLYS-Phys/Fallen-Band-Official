@@ -15,11 +15,11 @@ var musicinfo = document.getElementById('music');
 var photosinfo = document.getElementById('photos');
 var subscribeinfo = document.getElementById('subscribe');
 var membersinfo = document.getElementById('members');
-var connectinfo = document.getElementById('connect');
 
 var shows = document.getElementById('one');
 var show = document.getElementsByClassName('event');
 shows.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'block';
   show[0].children[0].href="https://www.facebook.com/events/527487998425735/";
   show[1].children[0].href='https://www.facebook.com/events/784626262325279/';
@@ -33,7 +33,6 @@ shows.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
@@ -41,6 +40,7 @@ shows.addEventListener('click', function(event){
 var news = document.getElementById('two');
 var news1 = document.getElementsByClassName('news');
 news.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'block';
   news1[0].children[0].src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F1233765783728692&show_text=true&width=500';
@@ -63,7 +63,6 @@ news.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
@@ -74,6 +73,7 @@ var secondVideo = document.getElementsByClassName('second')
 var thirdVideo = document.getElementsByClassName('third')
 var fourthVideo = document.getElementsByClassName('fourth')
 videos.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'block';
@@ -91,12 +91,12 @@ videos.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
 })
 
 var music = document.getElementById('four');
 var track = document.getElementsByClassName('music')
 music.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
@@ -108,7 +108,6 @@ music.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
@@ -116,6 +115,7 @@ music.addEventListener('click', function(event){
 var photos = document.getElementById('five');
 var photo = document.getElementsByClassName('photo');
 photos.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
@@ -148,13 +148,13 @@ photos.addEventListener('click', function(event){
   photo[23].src = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFallenBandBulgaria%2Fposts%2F654827781622498&show_text=false&width=500";
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
 
 var subscribe = document.getElementById('six');
 subscribe.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
@@ -162,7 +162,6 @@ subscribe.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'block';
   membersinfo.style.display = 'none';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
@@ -179,6 +178,7 @@ let fans = [];
 
 var members = document.getElementById('seven');
 members.addEventListener('click', function(event){
+  document.body.style.backgroundImage = "none";
   showsinfo.style.display = 'none';
   newsinfo.style.display = 'none';
   videosinfo.style.display = 'none';
@@ -186,27 +186,99 @@ members.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'block';
-  connectinfo.style.display = 'none';
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
+})
+var groupinfo = document.getElementById('wholegroup');
+var groupphoto = document.getElementById('group');
+function showgroup(){
+  groupinfo.style.display = 'block';
+  groupinfo.style.zIndex ='1';
+  groupphoto.style.opacity = '0.33';
+  groupphoto.style.transition = '0.5s';
+};
+function hidegroup(){
+  groupinfo.style.display = 'none';
+  groupphoto.style.opacity = '1';
+  groupphoto.style.transition = '0s';
+}
+var lac = document.getElementById('lac');
+var svil = document.getElementById('svil');
+var ach = document.getElementById('ach');
+var lacinfo = document.getElementById('lacinfo');
+var svilinfo = document.getElementById('svilinfo');
+var achinfo = document.getElementById('achinfo');
+var clickHere = document.getElementsByClassName('click');
+lac.addEventListener('mouseover', function(event){
+  svil.style.opacity = '0.1';
+  ach.style.opacity = '0.1';
+  lac.style.width = '25vw';
+  lac.style.height = '30vw';
+  lacinfo.style.display = 'block';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'none';
+  }
+})
+lac.addEventListener('mouseleave', function(event){
+  svil.style.opacity = '1';
+  ach.style.opacity = '1';
+  lac.style.width = '15vw';
+  lac.style.height = '20vw';
+  lacinfo.style.display = 'none';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'block';
+  }
+})
+svil.addEventListener('mouseover', function(event){
+  lac.style.opacity = '0.1';
+  ach.style.opacity = '0.1';
+  svil.style.width = '25vw';
+  svil.style.height = '30vw';
+  svilinfo.style.display = 'block';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'none';
+  }
+})
+svil.addEventListener('mouseleave', function(event){
+  lac.style.opacity = '1';
+  ach.style.opacity = '1';
+  svil.style.width = '15vw';
+  svil.style.height = '20vw';
+  svilinfo.style.display = 'none';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'block';
+  }
+})
+ach.addEventListener('mouseover', function(event){
+  svil.style.opacity = '0.1';
+  lac.style.opacity = '0.1';
+  ach.style.width = '25vw';
+  ach.style.height = '30vw';
+  achinfo.style.display = 'block';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'none';
+  }
+})
+ach.addEventListener('mouseleave', function(event){
+  svil.style.opacity = '1';
+  lac.style.opacity = '1';
+  ach.style.width = '15vw';
+  ach.style.height = '20vw';
+  achinfo.style.display = 'none';
+  for(i=0; i<3; i++){
+    clickHere[i].style.display = 'block';
+  }
 })
 
-var connect = document.getElementById('eight');
-connect.addEventListener('click', function(event){
-  showsinfo.style.display = 'none';
-  newsinfo.style.display = 'none';
-  videosinfo.style.display = 'none';
-  musicinfo.style.display = 'none';
-  photosinfo.style.display = 'none';
-  subscribeinfo.style.display = 'none';
-  membersinfo.style.display = 'none';
-  connectinfo.style.display = 'block';
-  document.getElementById('icons').style.display = 'none';
-  document.getElementById('follow').style.display = 'none';
-})
+function closeMem(){
+  for(i=0; i<3; i++){
+    document.getElementsByClassName('memberinfo')[i].style.display = 'none';
+  }
+}
 
 function closeTab(){
   for(i=0; i<8; i++){
+    document.body.style.backgroundImage = "url('https://i.ibb.co/CB7bVYS/Untitled-3.jpg')";
     document.getElementsByClassName('tab')[i].style.display = 'none';
     document.getElementById('icons').style.display = 'block';
     document.getElementById('follow').style.display = 'inherit'

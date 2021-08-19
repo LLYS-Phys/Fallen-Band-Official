@@ -125,7 +125,7 @@ p{
     text-shadow:0.15vw 0.15vw black;
     margin-top:-5%;
     text-align:center;
-    margin-bottom:10%;
+    margin-bottom:5%;
 }
 #icons{
     float:right;
@@ -160,7 +160,7 @@ a{
     table-layout: fixed;
     width:100%;
     margin-left:0;
-    margin-top:17%;
+    margin-top:11%;
 }
 #photos td{
     height:30vw;
@@ -303,6 +303,66 @@ input{
 }
 #fname:hover, #mail:hover{
     background-color: rgba(0, 0, 0, 0.805);
+}
+#group{
+    margin-left:-10%;
+    width:118.5%;
+    z-index:0;
+    filter: contrast(150%);
+    filter: brightness(150%);
+    filter: grayscale(92%);
+}
+#wholegroup{
+    display:none;
+    height:auto;
+    width:81.4vw;
+    margin-top:-73.2%;
+    margin-left:-8.4%;
+    color:black;
+    background-color: white;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:12%;
+    padding-bottom:12%;
+    font-size:2.5vw;
+}
+.member{
+    display:block;
+    width:15vw;
+    height:20vw;
+    margin-top:1%;
+    transition:0.5s;
+    margin-left:-5%;
+}
+#lac{
+    background-color: lawngreen;
+    margin-top:10%;
+}
+#svil{
+    background-color: lemonchiffon;
+}
+#ach{
+    background-color: lightblue;
+}
+.memberinfo{
+    display:none;
+    background-color: lightblue;
+    z-index: 1;
+    float:right;
+    margin-top:-42.4%;
+    width:70%;
+    margin-right:-5%;
+    overflow-wrap:normal;
+}
+#fix{
+    margin-bottom:10%;
+}
+.click{
+    display:block;
+    margin-right:45%;
+    float:right;
+    margin-top:-20%;
+    z-index:1;
 }
 
 @media screen and (max-width:1300px) and (orientation:landscape){
