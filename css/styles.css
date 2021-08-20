@@ -201,11 +201,13 @@ a{
 }
 #noshow{
     font-style: italic;
-    color:black;
-    font-size:2vw;
+    color:white;
+    font-size:2.5vw;
     text-align:center;
     padding-top:3%;
     padding-bottom:5%;
+    background-color: rgba(255, 0, 0, 0.2);
+    text-shadow:0.15vw 0.15vw black;
 }
 .event{
     float:right;
@@ -308,9 +310,6 @@ input{
     margin-left:-10%;
     width:118.5%;
     z-index:0;
-    filter: contrast(150%);
-    filter: brightness(150%);
-    filter: grayscale(92%);
 }
 #wholegroup{
     display:none;
@@ -328,11 +327,16 @@ input{
 }
 .member{
     display:block;
-    width:15vw;
+    width:20vw;
     height:20vw;
     margin-top:1%;
     transition:0.5s;
     margin-left:-5%;
+}
+.member img{
+    width:20vw;
+    height:20vw;
+    transition: 0.5s;
 }
 #lac{
     background-color: lawngreen;
@@ -346,20 +350,25 @@ input{
 }
 .memberinfo{
     display:none;
-    background-color: lightblue;
+    background-color: rgba(255, 255, 255, 0.315);
     z-index: 1;
     float:right;
-    margin-top:-42.4%;
-    width:70%;
+    margin-top:-38.1%;
+    width:69%;
     margin-right:-5%;
     overflow-wrap:normal;
+    height:26.65vw;
+    font-size:2vw;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:0.5%;
 }
 #fix{
     margin-bottom:10%;
 }
 .click{
     display:block;
-    margin-right:45%;
+    margin-right:50%;
     float:right;
     margin-top:-20%;
     z-index:1;
@@ -372,6 +381,9 @@ input{
 }
 
 @media screen and (max-width:1300px) and (orientation:portrait){
+    .nav{
+        background-color: rgba(160, 160, 160, 0.85);
+    }
     .nav .closebtn{
         top:-0.7%;
         font-size:10vw;
@@ -487,6 +499,7 @@ input{
         width:50vw;
     }
     .date{
+        background-color: rgba(255, 0, 0, 0.75);
         height:18.5vw;
         width:18.5vw;
     }
@@ -520,6 +533,13 @@ input{
         width:21.5vw;
         margin-left:39%;
         margin-right:39%;
+        font-size:3.5vw;
+    }
+    .memberinfo{
+        height:auto;
+        font-size:3.5vw;
+    }
+    #noshow{
         font-size:3.5vw;
     }
 }

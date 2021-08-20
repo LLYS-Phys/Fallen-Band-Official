@@ -186,6 +186,13 @@ members.addEventListener('click', function(event){
   photosinfo.style.display = 'none';
   subscribeinfo.style.display = 'none';
   membersinfo.style.display = 'block';
+  groupphoto.src = 'images/group.jpeg'
+  lac.firstChild.src = 'images/lac.jpg'
+//  svil.firstChild.src = 'images/svil.jpg'
+//  ach.firstChild.src = 'images/ach.jpg'
+  for(i=0;i<3;i++){
+    clickHere[i].firstChild.src = 'images/click-here.png'
+  };
   document.getElementById('icons').style.display = 'none';
   document.getElementById('follow').style.display = 'none';
 })
@@ -212,8 +219,10 @@ var clickHere = document.getElementsByClassName('click');
 lac.addEventListener('mouseover', function(event){
   svil.style.opacity = '0.1';
   ach.style.opacity = '0.1';
-  lac.style.width = '25vw';
-  lac.style.height = '30vw';
+  lac.style.width = '27vw';
+  lac.style.height = '27vw';
+  lac.firstChild.style.width = '27vw';
+  lac.firstChild.style.height = '27vw';
   lacinfo.style.display = 'block';
   for(i=0; i<3; i++){
     clickHere[i].style.display = 'none';
@@ -222,8 +231,10 @@ lac.addEventListener('mouseover', function(event){
 lac.addEventListener('mouseleave', function(event){
   svil.style.opacity = '1';
   ach.style.opacity = '1';
-  lac.style.width = '15vw';
+  lac.style.width = '20vw';
   lac.style.height = '20vw';
+  lac.firstChild.style.width = '20vw';
+  lac.firstChild.style.height = '20vw';
   lacinfo.style.display = 'none';
   for(i=0; i<3; i++){
     clickHere[i].style.display = 'block';
@@ -242,7 +253,7 @@ svil.addEventListener('mouseover', function(event){
 svil.addEventListener('mouseleave', function(event){
   lac.style.opacity = '1';
   ach.style.opacity = '1';
-  svil.style.width = '15vw';
+  svil.style.width = '20vw';
   svil.style.height = '20vw';
   svilinfo.style.display = 'none';
   for(i=0; i<3; i++){
@@ -262,7 +273,7 @@ ach.addEventListener('mouseover', function(event){
 ach.addEventListener('mouseleave', function(event){
   svil.style.opacity = '1';
   lac.style.opacity = '1';
-  ach.style.width = '15vw';
+  ach.style.width = '20vw';
   ach.style.height = '20vw';
   achinfo.style.display = 'none';
   for(i=0; i<3; i++){
